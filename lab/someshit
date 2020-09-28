@@ -1,0 +1,10 @@
+    <form action ='Linear_Congruential_generator_real', method = 'get'>
+        <label>m:</label><input type = 'number', placeholder = 'input m value', name = 'm'>
+        <label>a:</label><input type = 'number', placeholder = 'input a value', name = 'a'>
+        <label>c:</label><input type = 'number', placeholder = 'input c value', name = 'c'>
+        <label>size:</label><input type = 'number', placeholder = 'input size', name = 'size'>
+        <input type = 'submit', value = 'generate numbers'/>
+    </form>
+
+
+<link rel="stylesheet" href="{% static "css/styles.css" %}" />
